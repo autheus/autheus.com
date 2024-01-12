@@ -1,6 +1,6 @@
 baseURL: https://autheus.com/
 languageCode: en-us
-title: Autheus - API Security Made Easy
+title: Autheus - API Security Made Easy. Secure APIs Where it Matters Most - At Runtime.
 
 module:
   # uncomment line below for local development of module
@@ -20,7 +20,7 @@ markup:
 
 params:
   # Used as meta data; describe your site to make Google Bots happy
-  description:
+  description: "Autheus provides B2B SaaS enterprises with a powerful API security platform that enables them to secure APIs, control costs, and improve customer experience."
   # Preloader ensures images are loaded before displaying to the user. If you don't want it uncomment to set it to false
   # preloader: false
   navbarlogo:
@@ -37,11 +37,11 @@ params:
     # Main hero title
     title: Advanced API Security Made Easy
     # Hero subtitle (optional)
-    subtitle: Conquer the complexity of B2B API Security, Control Costs, and Improve Customer Experience.
+    subtitle: Conquer the complexity of API Security, Control Costs, and Improve Customer Experience.
     # Button text
     buttontext: Learn More
     # Where the main hero button links to
-    buttonlink: "#"
+    buttonlink: "#section1"
     # Hero image (from static/images/___)
     #image: illustrations/worker.svg
     image: API-workers.png
@@ -60,21 +60,25 @@ params:
 #      url: https://bulma.io/
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
+  - title: Use Cases
+    url: "#section1"
+  - title: Features
+    url: "#section2"
   - title: Pricing
-    url: /
+    url: /signup
   - title: Sign up
-    url: /
+    url: /signup
     button: true
   # Website Sections
   section1:
     title: Use Cases
-    subtitle: Secure APIs Where it Matters Most
+    subtitle: Secure APIs Where it Matters Most - Runtime
     tiles:
     - title: Increase Security and Prevent Fraud
-      # icon: laptop-cloud
-      # text: OAuth 2.0 and API Keys to secure APIs
-      # url: /
-      # buttonText: Learn More
+      icon: laptop-cloud
+      text: OAuth 2.0 and API Keys to secure APIs
+      url: /
+      buttonText: Learn More
     - title: Prevent outages, slowdowns, and security incidents
       icon: mouse-globe
       text: Dynamic rate-limiting policies to protect APIs
