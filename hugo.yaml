@@ -1,6 +1,6 @@
 baseURL: https://autheus.com/
 languageCode: en-us
-title: Autheus - API Security Made Easy. Secure APIs Where it Matters Most - At Runtime.
+title: Autheus - API Security Made Easy. Secure APIs Where it Matters Most - Runtime.
 
 module:
   # uncomment line below for local development of module
@@ -37,7 +37,9 @@ params:
     # Main hero title
     title: Advanced API Security Made Easy
     # Hero subtitle (optional)
-    subtitle: Conquer the complexity of API Security, Control Costs, and Improve Customer Experience.
+    # subtitle: Conquer the complexity of API Security, Control Costs, and Improve Customer Experience.
+    subtitle: Increase security, enhance reliability, control costs, and enable API monetization.
+
     # Button text
     buttontext: Learn More
     # Where the main hero button links to
@@ -74,45 +76,49 @@ params:
     title: Use Cases
     subtitle: Secure APIs Where it Matters Most - Runtime
     tiles:
-    - title: Increase Security and Prevent Fraud
+    - title: Control eKYC Costs
       icon: laptop-cloud
-      text: OAuth 2.0 and API Keys to secure APIs
+      text: Manage API traffic to third-party services
       url: /
       buttonText: Learn More
-    - title: Prevent outages, slowdowns, and security incidents
+    - title: Capture New Revenue
       icon: mouse-globe
-      text: Dynamic rate-limiting policies to protect APIs
+      text: Monetize APIs based on usage and entitlements
       url: /
       buttonText: Learn More
-    - title: Control Costs
+    - title: Reduce Security Risk
       icon: plug-cloud
-      text: Control inbound and outbound API traffic
+      text: Enable access controls and rate limiting
       url: /
       buttonText: Learn More
   section2:
-    title: Powerful Runtime API Security
-    subtitle: Secure APIs Where it Matters Most. Autheus provides B2B SaaS enterprises with a powerful API security platform.
+    title: Powerful Features for API Security
+    subtitle: Autheus provides B2B SaaS enterprises with a powerful API security platform.
     features:
-    - title: Single Control Plane
-      text: Autheus provides a single control plane to manage API security across multiple APIs--even across multiple API gateways, enabling businesses to implement consistent security policies and ensure compliance with regulatory requirements.
-      icon: laptop-cloud
+    - title: Enhanced Security & Compliance
+      text: Address seven out of the OWASP Top 10 API Security risks such as broken authentication, excessive data exposure, and insufficient logging and monitoring. Autheus provides a single control plane to manage API security across multiple APIs--even across multiple API gateways, enabling businesses to implement consistent security policies and ensure compliance with regulatory requirements.
+      icon: laptop-globe
     - title: Standards-based Security
       text: Autheus supports industry-standard security protocols, including OAuth 2.0 and API keys, to secure APIs and prevent unauthorized access. Businesses can control access to specific API endpoints, ensuring that only authorized users have access to sensitive data.
       icon: plug-cloud
+    - title: Multi-dimensional Rate Limiting
+      # text: Autheus enables businesses to define granular rate-limiting policies based on various parameters, including API endpoint, tenant, customer, user, IP address, API key, or any other properties on an API request. These policies can be modified in real-time, allowing businesses to adapt and respond to changing requirements.
+      text: Autheus empowers businesses with the ability to define dynamic rate-limiting policies tailored to a multitude of parameters, such as API endpoint, tenant, customer, user, IP address, API key, and any other attributes within an API request. These dynamic policies can be adjusted in real-time, providing unparalleled flexibility for businesses to swiftly adapt and respond to evolving requirements.
+      icon: doc-sync
+    - title: No API Gateway Required
+      text: Autheus is a cloud-native platform that can be plugged into existing cloud infrastructure, eliminating the need for an API gateway. Businesses can secure APIs at the runtime layer, enabling them to enforce security policies and rate limiting without introducing additional latency or complexity.
+      icon: laptop-cloud
+    # - title: Single Control Plane
+    #   text: Autheus provides a single control plane to manage API security across multiple APIs--even across multiple API gateways, enabling businesses to implement consistent security policies and ensure compliance with regulatory requirements.
+    #   icon: laptop-cloud
     # - title: API Security Like You've Never Seen Before
     #   text: Autheus provides B2B SaaS enterprises with a powerful API rate-limiting platform that enables efficient resource management, enhanced security, and optimal performance, empowering them to deliver exceptional user experiences and drive business growth.
     #   #text: Autheus enables businesses to define granular rate-limiting policies based on various parameters, including API endpoint, customer, user, IP address, API key, or any other properties on an API request. These policies can be modified in real-time, allowing businesses to adapt and respond to changing requirements.
     #   # Icon (from /images/illustrations/icons/___.svg)
     #   icon: laptop-globe
-    - title: Multi-dimensional Rate Limiting
-      text: Autheus enables businesses to define granular rate-limiting policies based on various parameters, including API endpoint, tenant, customer, user, IP address, API key, or any other properties on an API request. These policies can be modified in real-time, allowing businesses to adapt and respond to changing requirements.
-      icon: doc-sync
     # - title: Rate Limiting Analytics and Insights
     #   text: Autheus provides comprehensive analytics and reporting capabilities to monitor API usage patterns, identify potential bottlenecks, and track API performance metrics. Businesses gain valuable insights into customer behavior, trends, and usage patterns, enabling data-driven decision-making and optimization of API infrastructure.
     #   icon: doc-sync
-    - title: Enhanced Security & Compliance
-      text: Address seven out of the OWASP Top 10 API Security risks such as broken authentication, excessive data exposure, and insufficient logging and monitoring. Autheus provides a single control plane to manage API security across multiple APIs--even across multiple API gateways, enabling businesses to implement consistent security policies and ensure compliance with regulatory requirements.
-      icon: laptop-globe
   section3:
     title: One platform
     subtitle: To rule them all
